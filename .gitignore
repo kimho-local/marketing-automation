@@ -1,0 +1,39 @@
+# 인증/비밀 정보
+config/
+*.json
+!package.json
+!package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.env
+
+# Node
+node_modules/
+
+# 데이터 (CSV 누적 파일)
+data/
+
+# 로그
+logs/
+
+# 보고서 (자동 생성 — 별도 관리)
+reports/
+
+# Slack 초안 (자동 생성)
+slack_draft/
+
+# 백업/테스트
+backup/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
